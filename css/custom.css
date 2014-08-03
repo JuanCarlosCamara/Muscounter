@@ -1,0 +1,26 @@
+.counterButton{
+	margin-left: 2%;
+	margin-right: 2%;
+	width:20%;
+	height:30px;
+	font-size: 100%;
+}
+
+.counterGlobalButton{
+	margin-left: 2%;
+	margin-right: 2%;
+	width:44%;
+	height:30px;
+}
+
+.window.confirm.show{
+	margin:auto;
+}
+
+.window.error.show{
+	margin:auto;
+}
+
+.window.success.show{
+	margin:auto;
+}

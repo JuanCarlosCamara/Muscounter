@@ -1,0 +1,17 @@
+{
+	"name": "Muscounter",
+ 	"description": "This is a Mus counter application for Firefox OS. It contains two counters, one for each team and sharing functionality in Twitter when some team has won 3 games.",
+ 	"launch_path": "/index.html",
+ 	"version" : "1.0",
+ 	"icons": {
+ 		"60": "/image/icon2.png",
+    	"128": "/image/icon2.png"
+    },
+ 	"orientation": ["portrait"],
+ 	"developer": {
+    	"name": "Juan Carlos Cámara Checa",
+    	"url": "https://github.com/JuanCarlosCamara"
+    },
+ 	
+ 	"default_locale": "en"
+}

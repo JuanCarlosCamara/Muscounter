@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contador de mus</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/lungo.css">
+		<link rel="stylesheet" href="css/lungo.icon.css">
+		<link rel="stylesheet" href="css/lungo.theme.css">
+		<link rel="stylesheet" href="css/custom.css">
+	</head>
+	<body class="app">
+		<!-- <aside id="settings">
+			<header data-title="Menu"></header>
+			<article class="active list indented">
+				<ul>
+					<li data-icon="group" data-view-article="new_game_article">Nueva partida</li>
+					<li data-icon="facebook">Compartir</li>
+				</ul>
+			</article>
+		</aside> -->
+		<section id="new_game_section" data-transition="slide">
+			<header data-title="Contador de mus"></header>
+			<article id="new_game_article" class="active indented">
+				<div class="form">
+				    <fieldset>
+				        <label>Equipo 1</label>
+				        <input id="team1InputName" type="text" placeholder="Equipo 1">
+			        </fieldset>	
+			       	<fieldset>
+				        <label>Equipo 2</label>
+				        <input id="team2InputName" type="text" placeholder="Equipo 2">
+				    </fieldset>
+				    <a id="goPlay" href="#" data-label="Jugar" class="button on-right" data-icon="arrow-right"></a>
+				</div>
+			</article>
+		</section>
+
+		<section id="counter_section" data-transition="slide">
+			<header data-title="Contador de mus">
+				<nav class="on-left">
+					<button data-icon="home" data-view-section="new_game_section"></button>
+				</nav>
+				<!-- <nav class="on-right">
+					<button data-view-section="sec-2" data-icon="map-marker"></button>
+				</nav> -->
+			</header>
+			<article id="counter_article" class="active list">
+			    <ul>
+			    	<li class="contrast">Resultados de la partida</li>
+				    <li>
+			    		<a href="#" id="team1IncMarker" class="button on-right counterButton" ><abbr>+1</abbr></a>
+			    		<a href="#" id="team1DecMarker" class="button on-right counterButton" ><abbr>-1</abbr></a>
+			    		<small id="team1Name" class="indented">Equipo 1</small>
+			    		<strong id="team1Marker" class="indented">0</strong>
+			       	</li>
+			       	<li>
+			    		<a href="#" id="team2IncMarker" class="button small on-right counterButton" data-label="+1"><abbr></abbr></a>
+			    		<a href="#" id="team2DecMarker" class="button small on-right counterButton" data-label="-1"><abbr></abbr></a>
+			    		<small id="team2Name">Equipo 2</small>
+			    		<strong id="team2Marker">0</strong>
+			       	</li>
+			       	<li class="contrast">Partidas ganadas</li>
+			       	<li>
+			    		<a id="team1IncVaca" href="#" class="button on-right counterGlobalButton" ><abbr>+1</abbr></a>
+			    		<!-- <a id="team1DecVaca" href="#" class="button on-right counterButton" ><abbr>-1</abbr></a> -->
+			    		<small id="team1GlobalName" class="indented">Equipo 1</small>
+			    		<strong id="team1GlobalMarker" class="indented">0</strong>
+			       	</li>
+			       	<li>
+			    		<a id="team2IncVaca" href="#" class="button small on-right counterGlobalButton" data-label="+1"><abbr></abbr></a>
+			    		<!-- <a id="team2DecVaca" href="#" class="button small on-right counterButton" data-label="-1"><abbr></abbr></a> -->
+			    		<small id="team2GlobalName">Equipo 2</small>
+			    		<strong id="team2GlobalMarker">0</strong>
+			       	</li>
+			    </ul>
+			</article>
+			<!-- <footer id="main-footer">
+				<nav>
+					<a href="#" data-label="Home" data-view-article="main-article" class="active" data-icon="home"></a>
+					<a href="#" data-label="Article 2" data-view-article="artic2" data-icon="download"></a>
+					<a href="#" data-label="Logout" data-view-section="login" data-icon="arrow-left"></a>
+				</nav>
+		    </footer> -->
+		</section>
+		<section id="sec-2" data-transition="slide">
+			<header data-title="Section 2" data-back="arrow-left"></header>
+			<article id="sec-2-1" class="active">
+				<p>Contenido del articulo 2</p>
+			</article>
+		</section>
+		<script src="js/quo.js"></script>
+		<script src="js/lungo.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
